@@ -1,0 +1,20 @@
+tr:nth-child(even){background-color: #f2f2f2}
+
+tr {
+  width: 500px;
+}
+
+th {
+  background-color: #A9A9A9;
+  color: black;
+  width: 250px;
+}
+
+td {
+  width: 250px;
+}
+
+a[href^="http"] {
+  color:blue;
+  text-decoration: underline;
+}

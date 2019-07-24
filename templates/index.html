@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- CSS Stylesheets with Relative Paths -->
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>WesternU CVM Awarded Grants</title>
+
+  <!-- Bootcamp CSS -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <div id="container">
+        <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        <button type="button contact-button" id="button1" onclick=onClick()>Show All Grants</button>
+    </div>
+
+
+  <div class="row">
+    <div class="col-md-12">
+      <div id="table-area" class="">
+          <table id="table" class="table table-striped">
+            <thead></thead>
+            <tbody></tbody>
+          </table>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- v5+ D3 -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/table.js') }}"></script>
+</body>
+
+</html>

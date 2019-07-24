@@ -1,0 +1,27 @@
+                // .append("td");
+                // var td = row.append("td").attr("xlink:href", value);
+                console.log(value);
+                console.log(td);
+
+
+
+                // var aElem = document.createElement('a');
+                // aElem.href = value;
+                // var aElemTN = document.createTextNode('Link');
+                // console.log(aElem);
+                // aElem.appendChild(aElemTN);
+                // td.appendChild(aElem);
+                // td.text(aElem);
+                // var td = row.append("td").text("<a href=" + value "></a>");
+
+                  <!-- <div class="row">
+    <div class="col-md-2">
+      <div class="well">
+        <h5>Category:</h5>
+        <select id="selDataset" onchange="optionChanged(this.value)"></select>
+      </div>
+    <div class="col-md-2">
+      <h5>Category:</h5>
+      <select id="selDataset" onchange="optionChanged(this.value)"></select>
+    </div>
+  </div> -->
